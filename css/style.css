@@ -1,0 +1,706 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,700;0,900;1,500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+@font-face {
+	font-family: "landroverweb_bold";
+	src: url("../fonts/landroverweb_bold.eot");
+	src: local("☺"), url("../fonts/landroverweb_bold.woff") format("woff"), url("../fonts/landroverweb_bold.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "FrozenCrystal";
+	src: url("../fonts/FrozenCrystal.eot");
+	src: local("☺"), url("../fonts/FrozenCrystal.woff") format("woff"), url("../fonts/FrozenCrystal.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Обнуление страницы ===================================================================================== */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	line-height: 1;
+	text-rendering: optimizeLegibility;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+input,
+button,
+textarea {
+	font-size: inherit;
+}
+
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
+
+a {
+	color: inherit;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+html,
+body {
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	font-size: 16px;
+}
+
+body.lock {
+	overflow: hidden;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	min-height: 100%;
+	background-image: url('..//img/network.webp');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	Background-attachment: fixed;
+	position: relative;
+}
+
+[class*="__container"] {
+	margin: 0 auto;
+	max-width: 1200px;
+
+}
+
+.toTop {
+	border: 1px solid #000;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	background-color: #005c53cb;
+	margin: 10px;
+	padding: 15px;
+	color: #fff;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-ms-border-radius: 7px;
+	-o-border-radius: 7px;
+	z-index: 5;
+}
+
+.toTop:hover {
+	background-color: #003530cc;
+}
+
+.logo__body {
+
+	border: 2px solid #DFEBEA;
+	border-radius: 10px;
+	margin: 15px;
+	padding: 20px;
+	display: flex;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+
+}
+
+.logo__text {
+	font-family: Montserrat;
+	color: rgb(255, 0, 4);
+	font-size: 2rem;
+	font-weight: 900;
+	flex: 1 1 80%;
+}
+
+.logo__text span {
+
+	color: rgb(255, 0, 4);
+	font-size: 2rem;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.warning {
+	flex: 1 1 20%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.warning__text {
+	font-size: 1rem;
+}
+
+.main {
+	flex: 1 1 auto;
+	margin: 0 auto;
+	position: relative;
+}
+
+.fast_connect__body {
+	display: flex;
+	/* flex-direction: column; */
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.button {
+
+	height: 50px;
+	border: 2px solid #0A5926;
+	flex: 0 0 20%;
+	background-color: #060775;
+	border-radius: 5px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 10px;
+}
+
+
+.button>a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	padding: 10px;
+}
+
+
+
+.fast_connect__container,
+.ceo__container,
+.fines__container,
+.fuel__container,
+.mechanics__container,
+.submechanics__container,
+.refrepair__container,
+.accounting__container,
+.search_field__container,
+.repair__container,
+.subrepair__container,
+.logistics__container,
+.sublogistics__container,
+.containers__container,
+.warehouse__container,
+.delievery__container,
+.subdivision__container,
+.security__container {
+	margin: 5px;
+	padding: 5px;
+	border: 2px solid #DFEBEA;
+	border-radius: 10px;
+	background: rgba(0, 0, 0, 0.800);
+	flex: 1 1 auto;
+}
+
+@supports (-webkit-touch-callout: none) {
+
+	/* CSS specific to iOS devices */
+	.fast_connect__container,
+	.ceo__container,
+	.fines__container,
+	.fuel__container,
+	.mechanics__container,
+	.submechanics__container,
+	.refrepair__container,
+	.accounting__container,
+	.search_field__container,
+	.repair__container,
+	.subrepair__container,
+	.logistics__container,
+	.sublogistics__container,
+	.containers__container,
+	.warehouse__container,
+	.delievery__container,
+	.subdivision__container,
+	.security__container {
+		position: relative;
+		padding: 10px;
+		border: 2px solid #DFEBEA;
+		border-radius: 10px;
+		background: rgba(0, 0, 0, 0.800);
+		margin: 5px;
+	}
+}
+
+@supports not (-webkit-touch-callout: none) {
+	/* CSS for other than iOS devices */
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+
+	.fast_connect__container,
+	.ceo__container,
+	.fines__container,
+	.fuel__container,
+	.mechanics__container,
+	.submechanics__container,
+	.refrepair__container,
+	.accounting__container,
+	.search_field__container,
+	.repair__container,
+	.subrepair__container,
+	.logistics__container,
+	.sublogistics__container,
+	.containers__container,
+	.warehouse__container,
+	.delievery__container,
+	.subdivision__container,
+	.security__container {
+		position: relative;
+		padding: 10px;
+		border: 2px solid #DFEBEA;
+		border-radius: 10px;
+		background: rgba(0, 0, 0, 0.800);
+		margin: 5px;
+	}
+}
+
+.ceo__body,
+.fines__body,
+.fuel__body,
+.mechanics__body,
+.submechanics__body,
+.refrepair__body,
+.accounting__body,
+.search_field__container,
+.repair__body,
+.subrepair__body,
+.logistics__body,
+.sublogistics__body,
+.containers__body,
+.warehouse__body,
+.delievery__body,
+.subdivision__body,
+.security__body,
+.input {
+	margin: 0 auto;
+	margin: 5px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+h1, h2, h3 {
+	font-family: "landroverweb_bold";
+	padding: 20px 0;
+	text-align: center;
+	color: #F2B705
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+h3 {
+	font-size: 1.2rem;
+}
+
+p {
+	text-align: left;
+	margin: 15px;
+	line-height: 1.5;
+}
+
+.yellow {
+	/* text-decoration: underline; */
+	color: #FFAA00
+}
+
+.phone__card {
+	margin: 15px 5px;
+	width: 345px;
+	height: 100%;
+	border-radius: 10px;
+	background-image: url('../img/black-metal-background-or-texture_88281-4080.jpg');
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	object-fit: contain;
+}
+
+
+
+
+.mechanics__body .phone__card {
+	/* background-image: url('../img/engineering-blueprint.jpg'); */
+	background: #08401B;
+	background-position: center;
+	object-fit: cover;
+}
+
+.submechanics__body .phone__card {
+	/* background-image: url('../img/engineering-blueprint.jpg'); */
+	background: #08401B;
+	/* background-position: center;
+	object-fit: cover; */
+}
+
+
+
+
+
+
+.accounting__body .phone__card {
+	/* background-image: url('../img/accounting3.jpg'); */
+	background: #062601;
+	/* background-position: center;
+	object-fit: cover; */
+}
+
+.fuel__body .phone__card {
+	/* background-image: url('../img/fuel1.jpg'); */
+	background-image: url('../img/black-metal-background-or-texture_88281-4080.jpg');
+	background: #14243A;
+	background-position: center;
+	object-fit: cover;
+}
+
+.logistics__body .phone__card {
+	/* background-image: url('../img/technology.jpg'); */
+	background: #132426;
+	/* background-position: center;
+	object-fit: cover; */
+}
+
+.sublogistics__body .phone__card {
+	/* background-image: url('../img/gorod-noch-ogni-moskva-siti-rossiia.jpg'); */
+	background: #132426;
+	/* background-position: center;
+	object-fit: cover; */
+}
+
+.containers__body .phone__card {
+	/* background-image: url('../img/container2.jpg'); */
+	background: #14243A;
+	/* background-position: center;
+	object-fit: cover; */
+}
+
+.repair__body .phone__card {
+	/* background-image: url('../img/diesel-engine.jpg'); */
+	background: #011C6B;
+	/* background-position: center;
+	object-fit: cover; */
+}
+
+.subrepair__body .phone__card {
+	/* background-image: url('../img/diesel-engine.jpg'); */
+	background: #011C6B;
+	/* background-position: center;
+	object-fit: cover; */
+}
+
+.refrepair__body .phone__card {
+	/* background-image: url('../img/engineering-blueprint.jpg'); */
+	background: #3D737A;
+	/* background-position: center;
+	object-fit: cover; */
+}
+
+.warehouse__body .phone__card {
+	/* background-image: url('../img/pallet.jpg'); */
+	background: #401E01;
+	/* background-position: center;
+	object-fit: cover; */
+}
+
+.delievery__body .phone__card {
+	/* background-image: url('../img/astro03.jpg'); */
+	background: #132426;
+	/* background-position: center;
+	object-fit: cover; */
+}
+
+.subdivision__body .phone__card {
+	/* background-image: url('../img/traffic1.jpg'); */
+	background: #F25244;
+	/* background-position: center;
+	object-fit: cover; */
+}
+
+.china_block .phone__card {
+	/* background-image: url('../img/china1.jpg'); */
+	background: #F21905;
+	/* background-position: center;
+	object-fit: cover; */
+}
+
+.murmansk_block .phone__card {
+	/* background-image: url('../img/murmansk.jpg'); */
+	background: #1B3059;
+	/* background-position: center;
+	object-fit: cover; */
+}
+
+.containers_block .phone__card {
+	/* background-image: url('../img/container.jpg'); */
+	background: #405F73;
+	/* background-position: center;
+	object-fit: cover; */
+}
+
+.security__body .phone__card {
+	/* background-image: url('../img/security.jpg'); */
+	background: #010A26;
+	/* background-position: center;
+	object-fit: cover; */
+}
+
+.spb_block .phone__card {
+	/* background-image: url('../img/spb2.jpg'); */
+	background: #011140;
+	/* background-position: center;
+	object-fit: cover; */
+}
+
+.tow_truck_block .phone__card {
+	/* background-image: url('../img/spb2.jpg'); */
+	background: #565C42;
+	/* background-position: center;
+	object-fit: cover; */
+}
+
+
+.submechanics_block .phone__card {
+	/* background-image: url('../img/engineering-blueprint.jpg'); */
+	background: #08401B;
+	/* background-position: center;
+	object-fit: cover; */
+}
+
+/*
+@media (max-width: 720px) {
+
+	.phone__card {
+		margin: 10px 5px;
+	}
+} */
+
+.card-image {
+	margin: 10px;
+	display: inline-block;
+}
+
+.card-image img {
+	max-width: 100px;
+	max-height: 100px;
+	object-fit: contain;
+}
+
+.full-name__text {
+	margin: 5px 0px;
+	padding: 10px 5px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.job__title {
+	padding: 10px 5px;
+}
+
+.number-field {
+	color: #F2B705;
+	font-size: 1.2rem;
+	font-weight: bold;
+	padding-bottom: 10px;
+
+}
+
+.ceo__body,
+.fines__body,
+.fuel__body,
+.subceo__body,
+.mechanics__body,
+.submechanics__body,
+.refrepair__body,
+.accounting__body,
+.search_field__container,
+.repair__body,
+.subrepair__body,
+.logistics__body,
+.sublogistics__body,
+.warehouse__body,
+.delievery__body,
+.subdivision__body,
+.security__body {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	margin: 5px;
+
+}
+
+
+@media (max-width:680px) {
+	.phone__card {
+		display: block;
+		width: 95%;
+		justify-content: center;
+		align-items: center;
+		margin: 0 auto;
+	}
+
+	.ceo__body,
+	.fines__body,
+	.fuel__body,
+	.search_field__container,
+	.subceo__body,
+	.mechanics__body,
+	.submechanics__body,
+	.refrepair__body,
+	.repair__body,
+	.subrepair__body,
+	.logistics__body,
+	.sublogistics__body,
+	.warehouse__body,
+	.delievery__body,
+	.subdivision__body,
+	.security__body {
+		display: block;
+		position: relative;
+		justify-content: center;
+		text-align: center;
+		margin: 0 auto;
+		margin: 5px;
+		flex-wrap: wrap;
+	}
+
+	.fast_connect__body {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.button {
+		margin: 10px auto;
+		justify-content: center;
+		align-items: center;
+
+		display: block;
+		flex: 1 1 auto;
+		width: 100%;
+		height: 50px;
+	}
+
+
+}
+
+.phone__card.hide {
+	display: none;
+}
+
+
+#searchCard {
+	width: 95%;
+	height: 50px;
+	margin: 10px;
+	padding: 10px;
+	font-size: 1.5rem;
+	background: #302d2d;
+	border-radius: 5px;
+	color: #DFEBEA;
+	text-align: left;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.footer {
+	width: 100%;
+	min-height: 100px;
+	margin: 0 auto;
+	color: #fff;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer__body {
+
+	color: rgba(255, 0, 4, 0.63);
+}
+
+.footer__item {
+	margin: 20px;
+	padding: 10px;
+
+}
+
+.copyright {
+	text-align: center;
+	margin: 5px 10px;
+	padding: 10px;
+}

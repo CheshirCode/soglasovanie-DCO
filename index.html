@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<title>dotmax connect</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header id="toTop" class="header">
+			<div class="container">
+				<div class="logo__body">
+					<div class="logo__text">dotmax <span>connect</span></div>
+					<div class="warning">
+						<div class="warning__text">Для служебного пользования</div>
+					</div>
+				</div>
+				<nav class="menu"></nav>
+			</div>
+		</header>
+
+		<div class="main">
+			<a href="#toTop" class="toTop">Наверх!</a>
+			<nav class="fast_connect__container">
+				<h2>Быстрая навигация</h2>
+				<div class="fast_connect__body">
+					<div class="button"><a href="#ceo">Руководство</a></div>
+					<div class="button"><a href="#mechanics">Механики</a></div>
+					<div class="button"><a href="#ref_repair">Ремонт рефрижераторов</a></div>
+					<div class="button"><a href="#logistics">Логисты</a></div>
+					<div class="button"><a href="#fuel">Заправки вне базы</a></div>
+					<div class="button"><a href="#tow_truck">Эвакуатор</a></div>
+					<div class="button"><a href="#accountant">Бухгалтерия</a></div>
+					<div class="button"><a href="#warehouse">Склад</a></div>
+					<div class="button"><a href="#delievery">Водители</a></div>
+					<div class="button"><a href="#security">Охрана</a></div>
+				</div>
+
+			</nav>
+
+			<div class="search_field__container">
+				<h2>Поиск абонентов</h2>
+				<input type="text" id="searchCard" name="search__field" style="text-transform: capitalize"
+					placeholder="Например: Иванов, Иван или 911(код оператора)" class="input" />
+
+
+				<p>Введите фамилию или имя искомого абонента.</p>
+				<p>При нажатии на номер в карточке абонента, номер автоматически будет скопирован в буфер обмена, а системное
+					приложение попросит Вас перейти в режим телефона, где Вы сможете осуществить звонок.</p>
+				<p>На некоторых телефонах, при поиске нужного абонента, не отображаются контакты из-за автоввода прописных
+					(больших) букв. В таком случае, необходимо найти абонента вручную (путем прокрутки) или <span
+						class="yellow">принудительно поставить прописную
+						(большую) букву</span>.
+				</p>
+
+			</div>
+
+			<div class="ceo__container">
+				<h1>РУКОВОДСТВО</h1>
+				<div id="ceo" class="ceo__body searchCard">
+					<div class="phone__card">
+						<div class="card-image">
+							<img src="img/male.png" alt="Контакт" />
+						</div>
+						<div class="full-name__text">Шастин Константин Михайлович</div>
+						<div class="job__title">Генеральный директор</div>
+						<div class="number-field">
+							<a href="tel:+79117003535">+7(911) 700-35-35</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="mechanics" class="mechanics__container">
+				<h2>Номенклатура Генерального директора</h2>
+				<div class="mechanics__body searchCard">
+					<div class="phone__card">
+						<div class="card-image">
+							<img src="img/male.png" alt="Контакт" />
+						</div>
+						<div class="full-name__text">Киселев Александр Владимирович</div>
+						<div class="job__title">Главный механик</div>
+						<div class="number-field">
+							<a href="tel:+79111363016">+7(911) 136-30-16</a>
+						</div>
+					</div>
+					<div class="submechanics__container">
+						<h2>Направления:</h2>
+						<div class="submechanics__body searchCard">
+							<div class="subdivision__container">
+								<h2>Управление ремонта транспорта</h2>
+								<div class="subdivision__body submechanics_block searchCard">
+									<div class="phone__card">
+										<div class="card-image">
+											<img src="img/male.png" alt="Контакт" />
+										</div>
+										<div class="full-name__text">Гавриченко Павел Сергеевич</div>
+										<div class="job__title">Механик</div>
+										<div class="number-field">
+											<a href="tel:+79992091493">+7(999) 209-14-93</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="subdivision__container">
+								<h2>Управление снабжения и материально-технического обеспечения</h2>
+								<div class="subdivision__body submechanics_block searchCard">
+									<div class="phone__card">
+										<div class="card-image">
+											<img src="img/male.png" alt="Контакт" />
+										</div>
+										<div class="full-name__text">Жидков Алексей Александрович</div>
+										<div class="job__title">Механик</div>
+										<div class="number-field">
+											<a href="tel:+79818580866">+7(981) 858-08-66</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="subdivision__container">
+								<h2>Управление эксплуатации арендованной техники</h2>
+								<div class="subdivision__body submechanics_block searchCard">
+									<div class="phone__card">
+										<div class="card-image">
+											<img src="img/male.png" alt="Контакт" />
+										</div>
+										<div class="full-name__text">Горте Сергей Александрович</div>
+										<div class="job__title">Механик</div>
+										<div class="number-field">
+											<a href="tel:+79113946595">+7(911) 394-65-95</a>
+										</div>
+									</div>
+
+
+								</div>
+							</div>
+
+
+
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+			<div id="logistics" class="logistics__container">
+				<h2>Департамент логистики</h2>
+				<div class="logistics__body searchCard">
+					<div class="phone__card">
+						<div class="full-name__text">Нориков Николай Александрович</div>
+						<div class="job__title">Логист</div>
+						<div class="number-field">
+							<a href="tel:+79111005595">+7(911) 100-55-95</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Морщинина Ксения Борисовна</div>
+						<div class="job__title">Логист</div>
+						<div class="number-field">
+							<a href="tel:+79119385726">+7(911) 938-57-26</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Проскурина Наталья Александровна</div>
+						<div class="job__title">Логист</div>
+						<div class="number-field">
+							<a href="tel:+79811602944">+7(981) 160-29-44</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Егорова Татьяна Юрьевна</div>
+						<div class="job__title">Помощник логиста</div>
+						<div class="number-field">
+							<a href="tel:+79601174777">+7(960) 117-47-77</a>
+						</div>
+					</div>
+
+				</div>
+				<div class="sublogistics__container">
+					<h3>Логист по Москве и Московской области</h3>
+					<div class="sublogistics__body searchCard">
+						<div class="phone__card">
+							<div class="full-name__text">Федосова Юлия Ивановна</div>
+							<div class="job__title">Логист по МО</div>
+							<div class="number-field">
+								<a href="tel:+79169236091">+7(916) 923-60-91</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="fines__container">
+				<h2>Контроль за штрафами и транспортной дисциплиной</h2>
+				<div class="fines__body searchCard">
+					<div class="phone__card">
+						<div class="card-image">
+							<img src="img/male.png" alt="Контакт" />
+						</div>
+						<div class="full-name__text">Бикинайте Татьяна Петрасовна</div>
+						<div class="job__title">Работа со штрафами</div>
+						<div class="number-field">
+							<a href="tel:+79110216658">+7(911) 021-66-58</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="fuel" class="fuel__container">
+				<h2>Департамент международных перевозок</h2>
+				<div class="fuel__body searchCard">
+					<div class="phone__card">
+						<div class="card-image">
+							<img src="img/male.png" alt="Контакт" />
+						</div>
+						<div class="full-name__text">Хасанов Ринат Газинурович</div>
+						<div class="job__title">Международные перевозки + заправка ДТ (вне базы)</div>
+						<div class="number-field">
+							<a href="tel:+79003279595">+7(900) 327-95-95</a>
+						</div>
+					</div>
+				</div>
+				</footer>
+			</div>
+			<div class="containers__container">
+				<h2>Департамент контейнерных перевозок</h2>
+				<div class="containers__body searchCard">
+					<div class="phone__card">
+						<div class="full-name__text">Яковенко Владимир Викторович</div>
+						<div class="job__title">Контейнерные перевозки</div>
+						<div class="number-field">
+							<a href="tel:+79219616108">+7(921) 961-61-08</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="accountant" class="accounting__container">
+				<h2>Департамент финансов</h2>
+				<div class="accounting__body searchCard">
+					<div class="phone__card">
+						<div class="full-name__text">Артюшенкова Екатерина Викторовна</div>
+						<div class="job__title">Бухгалтер</div>
+						<div class="number-field">
+							<a href="tel:+79112610846">+7(911) 261-08-46</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Краснова Виктория Леонидовна</div>
+						<div class="job__title">Бухгалтер</div>
+						<div class="number-field">
+							<a href="tel:+79216443323">+7(921) 644-33-23</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Кондратьева Юлия Валентиновна</div>
+						<div class="job__title">Бухгалтер</div>
+						<div class="number-field">
+							<a href="tel:+79219757987">+7(921) 975-79-87</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Рубцова Марина Владимировна</div>
+						<div class="job__title">Бухгалтер</div>
+						<div class="number-field">
+							<a href="tel:+79117938391">+7(911) 793-83-91</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Сологубенкова Олеся Вячеславовна</div>
+						<div class="job__title">Бухгалтер</div>
+						<div class="number-field">
+							<a href="tel:+79213236017">+7(921) 323-60-17</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="warehouse__container">
+				<h2>Складской и распределительный департамент</h2>
+				<div id="warehouse" class="warehouse__body searchCard">
+					<div class="phone__card">
+						<div class="full-name__text">Вус Николай Валерьевич</div>
+						<div class="job__title">Начальник склада</div>
+						<div class="number-field">
+							<a href="tel:+79811275879">+7(981) 127-58-79</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="repair" class="repair__container">
+				<h2>Ремонтно-технический департамент</h2>
+				<div class="repair__body searchCard">
+					<div class="phone__card">
+						<div class="full-name__text">Салтыков Алексей Александрович</div>
+						<div class="job__title">Старший слесарь</div>
+						<div class="number-field">
+							<a href="tel:+79650115768">+7(965) 011-57-68</a>
+						</div>
+					</div>
+					<div class="subrepair__container">
+						<div class="subrepair__body searchCard">
+							<div class="phone__card">
+								<div class="full-name__text">Афонин Станислав Михайлович</div>
+								<div class="number-field">
+									<a href="tel:+79114244390">+7(911) 424-43-90</a>
+								</div>
+							</div>
+							<div class="phone__card">
+								<div class="full-name__text">Глебов Антон Алексеевич</div>
+								<div class="number-field">
+									<a href="tel:+79212301592">+7(921) 230-15-92</a>
+								</div>
+							</div>
+							<div class="phone__card">
+								<div class="full-name__text">Иванов Александр Викторович</div>
+								<div class="number-field">
+									<a href="tel:+79523808315">+7(952) 380-83-15</a>
+								</div>
+							</div>
+							<div class="phone__card">
+								<div class="full-name__text">Марков Сергей Александрович</div>
+								<div class="number-field">
+									<a href="tel:+79313832036">+7(931) 383-20-36</a>
+								</div>
+							</div>
+							<div class="phone__card">
+								<div class="full-name__text">Макаров Андрей Владимирович</div>
+								<div class="number-field">
+									<a href="tel:+79111515798">+7(911) 151-57-98</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="ref_repair" class="refrepair__container">
+						<h2>Ремонт изотермических полуприцепов и рефрижераторов</h2>
+						<div class="refrepair__body searchCard">
+							<div class="phone__card">
+								<div class="full-name__text">Романов Иван Сергеевич</div>
+								<div class="job__title">Специалист по рефрижераторам</div>
+								<div class="number-field">
+									<a href="tel:+79118414200">+7(911) 841-42-00</a>
+								</div>
+							</div>
+							<div class="phone__card">
+								<div class="full-name__text">Капустин Александр Викторович</div>
+								<div class="job__title">Специалист по рефрижераторам</div>
+								<div class="number-field">
+									<a href="tel:+79817350410">+7(981) 735-04-10</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div id="delievery" class="delievery__container">
+				<h2>Департамент перевозок</h2>
+				<div class="delievery__body searchCard">
+					<div class="phone__card">
+						<div class="full-name__text">Атаманюк Иван Игоревич</div>
+						<div class="number-field">
+							<a href="tel:+79910171934">+7(991) 017-19-34</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Ашейчик Андрей Иванович</div>
+						<div class="number-field">
+							<a href="tel:+79605831906">+7(960) 583-19-06</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Байков Денис Владимирович</div>
+						<div class="number-field">
+							<a href="tel:+79110721119">+7(911) 072-11-19</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Балдин Сергей Васильевич</div>
+						<div class="number-field">
+							<a href="tel:+79112676867">+7(911) 267-68-67</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Березовский Владислав Александрович</div>
+						<div class="number-field">
+							<a href="tel:+79102369825">+7(910) 236-98-25</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Бодров Василий Владимирович</div>
+						<div class="number-field">
+							<a href="tel:+79803190023">+7(980) 319-00-23</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Васильев Алексей Юрьевич</div>
+						<div class="number-field">
+							<a href="tel:+79190638080">+7(919) 063-80-80</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Васильев Андрей Анатольевич</div>
+						<div class="number-field">
+							<a href="tel:+79323327222">+7(932) 332-72-22</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Вишневский Нестер Сергеевич</div>
+						<div class="number-field">
+							<a href="tel:+79101183884">+7(910) 118-38-84</a>
+						</div>
+					</div>
+
+					<div class="phone__card">
+						<div class="full-name__text">Войнов Дмитрий Николаевич</div>
+						<div class="number-field">
+							<a href="tel:+79111430294">+7(911) 143-02-94</a>
+						</div>
+					</div>
+
+					<div class="phone__card">
+						<div class="full-name__text">Гаревских Виталий Андреевич</div>
+						<div class="number-field">
+							<a href="tel:+79969345075">+7(996) 934-50-75</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Глушневич Алексей Викторович</div>
+						<div class="number-field">
+							<a href="tel:+79113854448">+7(911) 385-44-48</a>
+						</div>
+					</div>
+
+					<div class="phone__card">
+						<div class="full-name__text">Гулиев Сергей Сардарович</div>
+						<div class="number-field">
+							<a href="tel:+79118428190">+7(911) 842-81-90</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Емельянов Игорь Викторович</div>
+						<div class="number-field">
+							<a href="tel:+79812653996">+7(981) 265-39-96</a>
+						</div>
+					</div>
+
+					<div class="phone__card">
+						<div class="full-name__text">Ефремов Алексей Юрьевич</div>
+						<div class="number-field">
+							<a href="tel:+79819157399">+7(981) 915-73-99</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Забогонский Никита Александрович</div>
+						<div class="number-field">
+							<a href="tel:+79113512428">+7(911) 351-24-28</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Зарубо Антон Вячеславович</div>
+						<div class="number-field">
+							<a href="tel:+79936303620">+7(993) 630-36-20</a>
+						</div>
+					</div>
+
+					<div class="phone__card">
+						<div class="full-name__text">Золоторев Денис Валерьевич</div>
+						<div class="number-field">
+							<a href="tel:+79215945056">+7(921) 594-50-56</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Иванов Геннадий Михайлович</div>
+						<div class="number-field">
+							<a href="tel:+79216097309">+7(921) 609-73-09</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Капустин Александр Аркадьевич</div>
+						<div class="number-field">
+							<a href="tel:+79191846754">+7(919) 184-67-54</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Капустин Евгений Александрович</div>
+						<div class="number-field">
+							<a href="tel:+79960035924">+7(996) 003-59-24</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Колпаков Илья Николаевич</div>
+						<div class="number-field">
+							<a href="tel:+79633165714">+7(963) 316-57-14</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Колядко Анатолий Николаевич</div>
+						<div class="number-field">
+							<a href="tel:+79265700058">+7(926) 570-00-58</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">
+							Кузьмин Владислав Георгиевич
+						</div>
+						<div class="number-field">
+							<a href="tel:+79167822873">+7(916) 782-28-73</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Кулешов Денис Владимирович</div>
+						<div class="number-field">
+							<a href="tel:+79529989641">+7(952) 998-96-41</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Леонов Алексей Николаевич</div>
+						<div class="number-field">
+							<a href="tel:+79112183911">+7(911) 218-39-11</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Лисун Ярослав Юрьевич</div>
+						<div class="number-field">
+							<a href="tel:+79531792370">+7(953) 179-23-70</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Лобанов Евгений Сергеевич</div>
+						<div class="number-field">
+							<a href="tel:+79523801708">+7(952) 380-17-08</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Лукашенок Андрей Васильевич</div>
+						<div class="number-field">
+							<a href="tel:+79809935283">+7(980) 993-52-83</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Лукашенок Сергей Васильевич</div>
+						<div class="number-field">
+							<a href="tel:+79113691486">+7(911) 369-14-86</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Майков Валерий Аркадьевич</div>
+						<div class="number-field">
+							<a href="tel:+79534619660">+7(953) 461-96-60</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Мацулевич Владимир Бронеславович</div>
+						<div class="number-field">
+							<a href="tel:+79116982723">+7(911) 698-27-23</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Миронов Андрей Михайлович</div>
+						<div class="number-field">
+							<a href="tel:+79118987115">+7(911) 898-71-15</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Мушников Сергей Всеволодович</div>
+						<div class="number-field">
+							<a href="tel:+79633207578">+7(963) 320-75-78</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Мурашко Виталий Игоревич</div>
+						<div class="number-field">
+							<a href="tel:+79150179995">+7(915) 017-99-95</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Мурашов Владимир Александрович</div>
+						<div class="number-field">
+							<a href="tel:+79779655599">+7(977) 965-55-99</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Мухаммедов Наиль Камилевич</div>
+						<div class="number-field">
+							<a href="tel:+79633660054">+7(963) 366-00-54</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Наркевич Владимир Александрович</div>
+						<div class="number-field">
+							<a href="tel:+79118985110">+7(911) 898-51-10</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Немиш Иван Васильевич</div>
+						<div class="number-field">
+							<a href="tel:+79119051188">+7(911) 905-11-88</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Никитин Сергей Викторович</div>
+						<div class="number-field">
+							<a href="tel:+79915863191">+7(991) 586-31-91</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Скуратович Алексей Сергеевич</div>
+						<div class="number-field">
+							<a href="tel:+79113540766">+7(911) 354-07-66</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Парахневич Евгений Андреевич</div>
+						<div class="number-field">
+							<a href="tel:+79066699290">+7(906) 669-92-90</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Перковский Александр Иванович</div>
+						<div class="number-field">
+							<a href="tel:+79669851504">+7(966) 985-15-04</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Петрученко Максим Андреевич</div>
+						<div class="number-field">
+							<a href="tel:+79102932559">+7(910) 293-25-59</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Плотко Иван Павлович</div>
+						<div class="number-field">
+							<a href="tel:+79219980958">+7(921) 998-09-58</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Половинко Владимир Анатольевич</div>
+						<div class="number-field">
+							<a href="tel:+79157161963">+7(915) 716-19-63</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Полухин Александр Николаевич</div>
+						<div class="number-field">
+							<a href="tel:+79811303979">+7(981) 130-39-79</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Привалов Николай Владимирович</div>
+						<div class="number-field">
+							<a href="tel:+79818587236">+7(981) 858-72-36</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Пюнненен Анатолий Алексеевич</div>
+						<div class="number-field">
+							<a href="tel:+79650299996">+7(965) 029-99-96</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Райцев Игорь Владимирович</div>
+						<div class="number-field">
+							<a href="tel:+79111404304">+7(911) 140-43-04</a>
+						</div>
+					</div>
+
+					<div class="phone__card">
+						<div class="full-name__text">Родионов Артем Валерьевич</div>
+						<div class="number-field">
+							<a href="tel:+79992181905">+7(999) 218-19-05</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Сардыко Александр Иванович</div>
+						<div class="number-field">
+							<a href="tel:+79113664564">+7(911) 366-45-64</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Тетеря Игорь Николаевич</div>
+						<div class="number-field">
+							<a href="tel:+79800625545">+7(980) 062-55-45</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Трифагин Юрий Валентинович</div>
+						<div class="number-field">
+							<a href="tel:+79115119331">+7(911) 511-93-31</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Трощенко Вячеслав Владимирович</div>
+						<div class="number-field">
+							<a href="tel:+79112582895">+7(911) 258-28-95</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Филимонов Александр Аркадьевич</div>
+						<div class="number-field">
+							<a href="tel:+79056063279">+7(905) 606-32-79</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Шибут Сергей Михайлович</div>
+						<div class="number-field">
+							<a href="tel:+79611078988">+7(961) 107-89-88</a>
+						</div>
+					</div>
+
+				</div>
+
+				<div id="tow_truck" class="subdivision__container">
+					<h3>Эвакуатор</h3>
+					<div class="subdivision__body tow_truck_block searchCard">
+						<div class="phone__card">
+							<div class="full-name__text">Гренадёров Виктор Владимирович</div>
+							<div class="number-field">
+								<a href="tel:+79811794523">+7(981) 179-45-23</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+
+
+				<div class="subdivision__container">
+					<h3>Городское подразделение</h3>
+					<div class="subdivision__body spb_block searchCard">
+						<div class="phone__card">
+							<div class="full-name__text">Гренадёров Виктор Владимирович</div>
+							<div class="number-field">
+								<a href="tel:+79811794523">+7(981) 179-45-23</a>
+							</div>
+						</div>
+						<div class="phone__card">
+							<div class="full-name__text">Геращенко Анатолий Анатольевич</div>
+							<div class="number-field">
+								<a href="tel:+79777573201">+7(977) 757-32-01</a>
+							</div>
+						</div>
+						<div class="phone__card">
+							<div class="full-name__text">Капустин Александр Александрович</div>
+							<div class="number-field">
+								<a href="tel:+79522331592">+7(952) 233-15-92</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="subdivision__container">
+					<h3>Китайское подразделение</h3>
+					<div class="subdivision__body china_block searchCard">
+						<div class="phone__card">
+							<div class="full-name__text">Голубев Дмитрий Леонидович</div>
+							<div class="number-field">
+								<a href="tel:+79056994133">+7(905) 699-41-33</a>
+							</div>
+						</div>
+						<div class="phone__card">
+							<div class="full-name__text">Заблоцкий Антон Витальевич</div>
+							<div class="number-field">
+								<a href="tel:+79501474901">+7(950) 147-49-01</a>
+							</div>
+						</div>
+						<div class="phone__card">
+							<div class="full-name__text">Иванов Артур Эдуардович</div>
+							<div class="number-field">
+								<a href="tel:+79113777877">+7(911) 377-78-77</a>
+							</div>
+						</div>
+						<div class="phone__card">
+							<div class="full-name__text">Корошкевич Александр Михайлович</div>
+							<div class="number-field">
+								<a href="tel:+79002248846">+7(900) 224-88-46</a>
+							</div>
+						</div>
+						<div class="phone__card">
+							<div class="full-name__text">Матеюк Григорий Петрович</div>
+							<div class="number-field">
+								<a href="tel:+375298909258">+375 29 890-92-58</a>
+							</div>
+						</div>
+						<div class="phone__card">
+							<div class="full-name__text">Подголин Роман Викторович</div>
+							<div class="number-field">
+								<a href="tel:+79057260009">+7(905) 726-00-09</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="subdivision__container">
+					<h3>Подразделение контейнерных перевозок</h3>
+					<div class="subdivision__body containers_block searchCard">
+						<div class="phone__card">
+							<div class="full-name__text">Леонов Андрей Александрович</div>
+							<div class="number-field">
+								<a href="tel:+79215791426">+7(921) 579-14-26</a>
+							</div>
+						</div>
+
+						<div class="phone__card">
+							<div class="full-name__text">Соколов Александр Анатольевич</div>
+							<div class="number-field">
+								<a href="tel:+79214157268">+7(921) 415-72-68</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="subdivision__container">
+					<h3>Московское подразделение</h3>
+					<div class="subdivision__body searchCard">
+						<div class="phone__card">
+							<div class="full-name__text">Корецкий Дмитрий Васильевич</div>
+							<div class="number-field">
+								<a href="tel:+79663873231">+7(966) 387-32-31</a>
+							</div>
+						</div>
+						<div class="phone__card">
+							<div class="full-name__text">Торгашев Сергей Владимирович</div>
+							<div class="number-field">
+								<a href="tel:+79859292113">+7(985) 929-21-13</a>
+							</div>
+						</div>
+						<div class="phone__card">
+							<div class="full-name__text">Мурзоев Адонис Феодорович</div>
+							<div class="number-field">
+								<a href="tel:+79774667477">+7(977) 466-74-77</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="subdivision__container">
+					<h3>Мурманское подразделение</h3>
+					<div class="subdivision__body murmansk_block searchCard">
+						<div class="phone__card">
+							<div class="full-name__text">Веселов Михаил Валерьевич</div>
+							<div class="number-field">
+								<a href="tel:+79212173442">+7(921) 217-34-42</a>
+							</div>
+						</div>
+						<div class="phone__card">
+							<div class="full-name__text">Ежов Александр Александрович</div>
+							<div class="number-field">
+								<a href="tel:+79119639394">+7(911) 963-93-94</a>
+							</div>
+						</div>
+						<div class="phone__card">
+							<div class="full-name__text">Ермаков Денис Борисович</div>
+							<div class="number-field">
+								<a href="tel:+79217298121">+7(921) 729-81-21</a>
+							</div>
+						</div>
+						<div class="phone__card">
+							<div class="full-name__text">Кацора Андрей Николаевич</div>
+							<div class="number-field">
+								<a href="tel:+79817454247">+7(981) 745-42-47</a>
+							</div>
+						</div>
+						<div class="phone__card">
+							<div class="full-name__text">Навоев Алексей Леонтьевич</div>
+							<div class="number-field">
+								<a href="tel:+79996684835">+7(999) 668-48-35</a>
+							</div>
+						</div>
+						<div class="phone__card">
+							<div class="full-name__text">Рогозин Юрий Павлович</div>
+							<div class="number-field">
+								<a href="tel:+79313928845">+7(931) 392-88-45</a>
+							</div>
+						</div>
+						<div class="phone__card">
+							<div class="full-name__text">Топоров Александр Валерьевич</div>
+							<div class="number-field">
+								<a href="tel:+79819807240">+7(981) 980-72-40</a>
+							</div>
+						</div>
+						<div class="phone__card">
+							<div class="full-name__text">Федоров Николай Владимирович</div>
+							<div class="number-field">
+								<a href="tel:+79215974687">+7(921) 597-46-87</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div id="security" class="security__container">
+				<h2>Охранно-заправочный департамент</h2>
+				<div class="security__body searchCard">
+					<div class="phone__card">
+						<div class="full-name__text">Марченко Олег Валериевич</div>
+						<div class="number-field">
+							<a href="tel:+79110254586">+7(911) 025-45-86</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Вус Николай Валерьевич</div>
+						<div class="number-field">
+							<a href="tel:+79811275879">+7(981) 127-58-79</a>
+						</div>
+					</div>
+					<div class="phone__card">
+						<div class="full-name__text">Максимов Дмитрий Владиславович</div>
+						<div class="number-field">
+							<a href="tel:+79310077933">+7(931) 007-79-33</a>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__body"></div>
+				<div class="copyright">dotmax group, СПб 2021-2026г. &#169;</div>
+			</div>
+	</div>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+
+
+
+
+</html>
